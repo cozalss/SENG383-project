@@ -57,7 +57,6 @@ public class KidTaskLoginUI extends JPanel {
         contentBox.add(roleSelectLabel);
         contentBox.add(Box.createVerticalStrut(35));
 
-        // Kartlar Paneli
         JPanel cardsPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 25, 0));
         cardsPanel.setOpaque(false);
 
@@ -184,4 +183,5 @@ public class KidTaskLoginUI extends JPanel {
             super.paintComponent(g);
         }
     }
+
 }
