@@ -17,7 +17,6 @@ public class TaskPanel extends JPanel {
         setBackground(Color.WHITE);
         setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
-        // Tablo Ayarları
         String[] cols = {"Task Title", "Description", "Points", "Status", "Rating"};
         model = new DefaultTableModel(cols, 0) {
             @Override
@@ -161,4 +160,5 @@ public class TaskPanel extends JPanel {
             JOptionPane.showMessageDialog(this, "Task deleted successfully.");
         }
     }
+
 }
