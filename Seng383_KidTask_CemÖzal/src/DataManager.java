@@ -75,7 +75,6 @@ public class DataManager {
         }
     }
 
-    // YENİ EKLENEN METOD: Dilek silme işlemi
     public static void removeWish(int index) {
         if (index >= 0 && index < wishList.size()) {
             wishList.remove(index);
@@ -101,4 +100,5 @@ public class DataManager {
     public static int calculateProgress() {
         return calculateTotalPoints() % 100;
     }
+
 }
