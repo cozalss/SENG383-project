@@ -116,11 +116,7 @@ The system handles real-world constraints such as **instructor availability, roo
 
 | **Data Entry** | **Timetable View** | **Validation Report** |
 |:---:|:---:|:---:|
-| <img src="<img width="1393" height="898" alt="1" src="https://github.com/user-attachments/assets/f14f8097-b70b-46a7-a798-759aa9a3ff67" />
-" width="300" /> | <img src="<img width="1393" height="897" alt="2" src="https://github.com/user-attachments/assets/56257418-9756-4738-871c-5a507f3e9d95" />
-" width="300" /> | <img src="<img width="1397" height="901" alt="3" src="https://github.com/user-attachments/assets/c9eebb80-da88-432f-9b6a-0ad29182aa75" />
-" width="300" /> |
-| *Course, instructor & room input* | *Generated weekly schedule* | *Unresolved conflicts & rule violations* |
+| <img src="https://github.com/user-attachments/assets/f14f8097-b70b-46a7-a798-759aa9a3ff67" width="300" /> | <img src="https://github.com/user-attachments/assets/56257418-9756-4738-871c-5a507f3e9d95" width="300" /> | <img src="https://github.com/user-attachments/assets/c9eebb80-da88-432f-9b6a-0ad29182aa75" width="300" /> |
 
 ---
 
