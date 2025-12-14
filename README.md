@@ -13,9 +13,9 @@ Unlike traditional Swing apps, KidTask features a **modern, material-design insp
 
 ## 📸 Screenshots
 
-| **Animated Login Screen** | **Dashboard & Gamification** |
-|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/8023ee0b-d8c2-4529-b709-abf98d8b8fa9" width="400" /> <br> *Floating shapes animation & Role cards* | <img src="https://github.com/user-attachments/assets/149cda77-8805-4454-9d9d-294781421224" width="400" /> <br> *Circular progress bar & Task list* |
+| **Data Entry** | **Timetable View** | **Validation Report** |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/f14f8097-b70b-46a7-a798-759aa9a3ff67" width="300" /> | <img src="https://github.com/user-attachments/assets/56257418-9756-4738-871c-5a507f3e9d95" width="300" /> | <img src="https://github.com/user-attachments/assets/c9eebb80-da88-432f-9b6a-0ad29182aa75" width="300" /> |
 
 ---
 
