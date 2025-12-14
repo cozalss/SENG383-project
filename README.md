@@ -96,8 +96,8 @@ src/
 ├── StyleTheme.java     # UI Colors & Fonts
 ├── Task.java           # Model Class
 └── Wish.java           # Model Class
-
 ---
+```
 
 # 🐝 BeePlan – Course Scheduler
 
@@ -114,9 +114,13 @@ The system handles real-world constraints such as **instructor availability, roo
 
 ## 📸 Screenshots
 
-| **Home & Navigation** | **Weekly Timetable View** |
-|:---:|:---:|
-| *(Canva-designed home screen)* | *(Generated schedule grid)* |
+| **Data Entry** | **Timetable View** | **Validation Report** |
+|:---:|:---:|:---:|
+| <img src="<img width="1393" height="898" alt="1" src="https://github.com/user-attachments/assets/f14f8097-b70b-46a7-a798-759aa9a3ff67" />
+" width="300" /> | <img src="<img width="1393" height="897" alt="2" src="https://github.com/user-attachments/assets/56257418-9756-4738-871c-5a507f3e9d95" />
+" width="300" /> | <img src="<img width="1397" height="901" alt="3" src="https://github.com/user-attachments/assets/c9eebb80-da88-432f-9b6a-0ad29182aa75" />
+" width="300" /> |
+| *Course, instructor & room input* | *Generated weekly schedule* | *Unresolved conflicts & rule violations* |
 
 ---
 
@@ -154,8 +158,31 @@ The system handles real-world constraints such as **instructor availability, roo
 
 ## 🚀 How to Run
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/BeePlan.git
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/cozalss/SENG383-project.git
+    ```
 
+2.  **Open in IDE**
+    * Open the project in **IntelliJ IDEA** (Recommended) or Eclipse.
+
+3.  **Run the Application**
+    * Locate `src/KidTaskMain.java`.
+    * Right-click and select **Run 'KidTaskMain'**.
+
+4.  **First Use**
+    * The app will automatically create `tasks.csv` and `wishes.csv` files in the root directory upon saving data.
+
+## 📂 Project Structure
+
+```text
+src/
+├── main.py                    # Application entry point
+├── persistence_manager.py     # JSON load/save logic
+├── schedule_model.py          # Manages data & generated schedules
+├── scheduler_algorithm.py     # Scheduling algorithm
+├── scheduler_controller.py    # Connects GUI actions to model logic
+└── timetable_view.py          # Weekly timetable GUI view
+---
+```
 
