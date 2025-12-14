@@ -66,7 +66,7 @@ Unlike traditional Swing apps, KidTask features a **modern, material-design insp
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/KidTask.git](https://github.com/YOUR_USERNAME/KidTask.git)
+    git clone [https://github.com/cozalss/SENG383-project/tree/main/SENG383-KidTask_Cem%C3%96zal_Final]
     ```
 
 2.  **Open in IDE**
