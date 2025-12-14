@@ -145,8 +145,8 @@ The system handles real-world constraints such as **instructor availability, roo
 ## 🛠️ Tech Stack & Architecture
 
 * **Language:** Python (3.9+)
-* **GUI Framework:** PyQt5
-* **Design Pattern:** MVC
+* **GUI Framework:** Tkinter
+* **Design Pattern:** MVC (Model–View–Controller)
 * **Data Storage:** JSON / CSV File I/O
 * **UI Design:** Canva (AI-assisted)
 
