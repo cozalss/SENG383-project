@@ -99,10 +99,12 @@ src/
 ---
 ```
 
+
+
 # 🐝 BeePlan – Course Scheduler
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![UI](https://img.shields.io/badge/GUI-PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-306998?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
 ## 📖 Project Overview
