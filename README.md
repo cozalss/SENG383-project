@@ -97,5 +97,65 @@ src/
 ├── Task.java           # Model Class
 └── Wish.java           # Model Class
 
+---
+
+# 🐝 BeePlan – Course Scheduler
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![UI](https://img.shields.io/badge/GUI-PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+
+## 📖 Project Overview
+**BeePlan** is a Python-based GUI application that automatically generates **conflict-free university course schedules**.
+
+The system handles real-world constraints such as **instructor availability, room capacity, room type (Lab/Lecture), and scheduling rules**. It uses a constraint-based scheduling algorithm and presents results in a **visual weekly timetable**, along with clear validation reports.
+
+---
+
+## 📸 Screenshots
+
+| **Home & Navigation** | **Weekly Timetable View** |
+|:---:|:---:|
+| *(Canva-designed home screen)* | *(Generated schedule grid)* |
+
+---
+
+## ✨ Key Features
+
+### 🧠 Intelligent Scheduling
+* Conflict-free timetable generation
+* Instructor availability & room constraints
+* Lab vs lecture room validation
+* Heuristic / backtracking-based algorithm
+
+### 📊 Visual Timetable & Reports
+* Weekly schedule grid view
+* Automatic conflict & validation reports
+* One-click schedule regeneration
+
+### 💾 Data Persistence
+* File-based storage using **JSON**
+    * `courses.json`
+    * `instructors.json`
+    * `rooms.json`
+* No external database required
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+* **Language:** Python (3.9+)
+* **GUI Framework:** PyQt5
+* **Design Pattern:** MVC
+* **Data Storage:** JSON / CSV File I/O
+* **UI Design:** Canva (AI-assisted)
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/BeePlan.git
 
 
