@@ -161,15 +161,21 @@ The system handles real-world constraints such as **instructor availability, roo
     git clone https://github.com/cozalss/SENG383-project.git
     ```
 
-2.  **Open in IDE**
-    * Open the project in **IntelliJ IDEA** (Recommended) or Eclipse.
+2.  **Open the Project**
+    * Open the BeePlan folder in **VS Code**, **PyCharm**, or any Python-compatible IDE.
 
-3.  **Run the Application**
-    * Locate `src/KidTaskMain.java`.
-    * Right-click and select **Run 'KidTaskMain'**.
+3.  **Install Requirements**
+    * BeePlan uses **Tkinter**, which comes pre-installed with Python.
+    * No additional libraries are required.
 
-4.  **First Use**
-    * The app will automatically create `tasks.csv` and `wishes.csv` files in the root directory upon saving data.
+4.  **Run the Application**
+    ```bash
+    python main.py
+    ```
+
+5.  **First Use**
+    * The application loads input data from JSON files.
+    * Generated timetables and validation reports are displayed in the GUI.
 
 ## 📂 Project Structure
 
