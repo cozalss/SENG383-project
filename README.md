@@ -10,6 +10,9 @@
 Unlike traditional Swing apps, KidTask features a **modern, material-design inspired UI** with animated gradients, particle effects (confetti), and smooth transitions. It allows parents/teachers to assign tasks and children to earn points, level up, and unlock wishes.
 
 ---
+## 🎥 Project Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/RDaX0NvR2QQ/0.jpg)](https://www.youtube.com/watch?v=RDaX0NvR2QQ)
 
 ## 📸 Screenshots
 
