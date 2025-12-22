@@ -122,6 +122,14 @@ The system handles real-world constraints such as **instructor availability, roo
 
 ---
 
+
+---
+## 🎥 Demo
+▶️ Click the image below to watch the project demo video.
+
+[![Project Demo](https://img.youtube.com/vi/RDaX0NvR2QQ/0.jpg)](https://www.youtube.com/watch?v=TQtBrGIfb1I)
+---
+
 ## 📸 Screenshots
 
 | **Data Entry** | **Timetable View** | **Validation Report** |
