@@ -26,7 +26,17 @@ class PersistenceManager:
         if f:
             data = json.load(f)
             self.schedule_model.courses = [Course(**c) for c in data.get("courses", [])]
-            self.schedule_model.rooms = [Room(**r) for r in data.get("rooms", [])]
+            # Handle possible key mismatch between JSON ("type") and Room.__init__ ("type_")
+            rooms = []
+            for r in data.get("rooms", []):
+                room = Room(
+                    name=r.get("name"),
+                    capacity=r.get("capacity"),
+                    # Support both legacy "type" and possible "type_" keys
+                    type_=r.get("type_") if "type_" in r else r.get("type")
+                )
+                rooms.append(room)
+            self.schedule_model.rooms = rooms
             f.close()
             return True
         return False
