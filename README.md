@@ -1,32 +1,33 @@
-# 🚀 KidTask - Smart Task Manager
+![KidTask Banner](https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=250&section=header&text=KidTask&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Gamified%20Task%20Manager%20for%20Kids&descSize=25&descAlignY=60)
+
+<div align="center">
 
 ![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![UI](https://img.shields.io/badge/GUI-Swing%20%2F%20Material-7C3AED?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
+<br>
+
+### 👤 Developed by **Cem Özal**
+Software Engineering Student | Java Swing • UI/UX • Gamification
+
+</div>
+
+---
+
 ## 📖 Project Overview
 **KidTask** is a gamified task management application built with **Java Swing**. It turns daily chores into a fun, RPG-like experience for children.
 
-Unlike traditional Swing apps, KidTask features a **modern, material-design inspired UI** with animated gradients, particle effects (confetti), and smooth transitions. It allows parents/teachers to assign tasks and children to earn points, level up, and unlock wishes.
+Unlike traditional Swing apps, KidTask features a **modern, material-design inspired UI** with animated gradients, particle effects (confetti 🎊), and smooth transitions. It allows parents/teachers to assign tasks and children to earn points, level up, and unlock wishes.
 
 ---
 
-## 👤 Author
-
-Developed by **Cem Özal**
-
-- Software Engineering Student  
-- Java Swing • UI/UX • Gamification  
-
-
----
-## 🎥 Demo
-▶️ Click the image below to watch the project demo video.
+## 🎥 Demo Video
+> **Click the image below to watch the project demo!** 👇
 
 [![Project Demo](https://img.youtube.com/vi/RDaX0NvR2QQ/0.jpg)](https://www.youtube.com/watch?v=RDaX0NvR2QQ)
+
 ---
-
-
 
 ## 📸 Screenshots
 
@@ -42,7 +43,7 @@ Developed by **Cem Özal**
 * **Level System:** Dynamic leveling logic based on total points and average task ratings.
 * **Circular Progress Bar:** Animated circular bar showing progress towards the next level.
 * **Particle Effects:** Confetti explosion animation triggers automatically upon leveling up! 🎊
-* **Toast Notifications:** Modern, floating popup messages (Success/Error/Warning) instead of old `JOptionPane` popups.
+* **Toast Notifications:** Modern, floating popup messages (Success/Error/Warning).
 
 ### 👥 Role-Based Access
 * **Child:** View tasks, mark them as "Pending", view wish list.
@@ -50,8 +51,8 @@ Developed by **Cem Özal**
 * **Teacher:** Assign school-related tasks and goals.
 
 ### 📝 Advanced Task Management
-* **Star Rating System:** Parents rate completed tasks (⭐ 1-5). High ratings help the child level up faster.
-* **Status Workflow:** `TO DO` ➝ `PENDING` (Child marks done) ➝ `APPROVED` (Parent confirms).
+* **Star Rating System:** Parents rate completed tasks (⭐ 1-5).
+* **Status Workflow:** `TO DO` ➝ `PENDING` ➝ `APPROVED`.
 * **Filtering:** Filter tasks by frequency (Daily, Weekly, Once).
 
 ### 🎨 Modern UI/UX
@@ -60,26 +61,23 @@ Developed by **Cem Özal**
 * **Animated Header:** The dashboard header features a slowly shifting color gradient.
 
 ### 💾 Data Persistence
-* **CSV Storage:** Uses a custom CSV parser to save and load data without needing an external database engine.
-    * `tasks.csv`: Stores task details, status, and star ratings.
-    * `wishes.csv`: Stores wishlist items and costs.
+* **CSV Storage:** Uses a custom CSV parser to save/load data without an external DB.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Tech Stack
 
-* **Language:** Java (JDK 8+)
-* **GUI Framework:** Java Swing (Custom Painted Components)
-* **Design Pattern:** MVC-inspired (Model: `Task/Wish`, View: `Panels`, Controller: `Main/DataManager`)
-* **Data Storage:** Local File I/O (CSV)
-* **Theme Colors:**
-    * 🟣 Primary: `#7C3AED` (Violet)
-    * 🟢 Success: `#10B981` (Emerald)
-    * 🟠 Accent: `#F59E0B` (Amber)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,idea,git" />
+  <br>
+  <b>Framework:</b> Java Swing (Custom Painted Components) <br>
+  <b>Architecture:</b> MVC-inspired Pattern <br>
+  <b>Theme:</b> Violet (#7C3AED), Emerald (#10B981), Amber (#F59E0B)
+</div>
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run (KidTask)
 
 1.  **Clone the Repository**
     ```bash
@@ -87,47 +85,32 @@ Developed by **Cem Özal**
     ```
 
 2.  **Navigate to Project Folder**
-    * After cloning, enter the project directory:
     ```bash
     cd SENG383-KidTask_CemÖzal_Final
     ```
 
-3.  **Open in IDE**
-    * Open this folder in **IntelliJ IDEA** (Recommended) or Eclipse.
+3.  **Run the Application**
+    * Open in **IntelliJ IDEA** (Recommended).
+    * Run `src/KidTaskMain.java`.
 
-4.  **Run the Application**
-    * Locate `src/KidTaskMain.java`.
-    * Right-click and select **Run 'KidTaskMain'**.
+<br><br><br>
 
-5.  **First Use**
-    * The app will automatically create `tasks.csv` and `wishes.csv` files in the root directory upon saving data.
----
+![BeePlan Banner](https://capsule-render.vercel.app/api?type=waving&color=3776AB&height=250&section=header&text=BeePlan&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Automated%20Course%20Scheduler&descSize=25&descAlignY=60)
 
-## 📂 Project Structure
-
-```text
-src/
-├── KidTaskMain.java    # Entry point & Main Controller
-├── KidTaskLoginUI.java # Animated Login Screen
-├── TaskPanel.java      # Task Management Dashboard
-├── WishPanel.java      # Wish List Dashboard
-├── EffectPanel.java    # Particle & Notification Effects
-├── TaskDialog.java     # Popup for adding tasks
-├── WishDialog.java     # Popup for adding wishes
-├── DataManager.java    # CSV Read/Write Logic
-├── StyleTheme.java     # UI Colors & Fonts
-├── Task.java           # Model Class
-└── Wish.java           # Model Class
----
-```
-
-
-
-# 🐝 BeePlan – Course Scheduler
+<div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![GUI](https://img.shields.io/badge/GUI-Tkinter-306998?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+
+<br>
+
+### 👤 Developed by **Hasabu Can Eltayeb**
+Software Engineering Student | Python • GUI Development • Scheduling Algorithms
+
+</div>
+
+---
 
 ## 📖 Project Overview
 **BeePlan** is a Python-based GUI application that automatically generates **conflict-free university course schedules**.
@@ -136,94 +119,63 @@ The system handles real-world constraints such as **instructor availability, roo
 
 ---
 
-## 👤 Author
-
-Developed by **Hasabu Can Eltayeb**
-
-- Software Engineering Student  
-- Python • GUI Development • Scheduling Algorithms  
-
-
----
-## 🎥 Demo
-▶️ Click the image below to watch the project demo video.
+## 🎥 Demo Video
+> **Click the image below to watch the automation in action!** 👇
 
 [![Project Demo](https://img.youtube.com/vi/oKxMENr983E/0.jpg)](https://www.youtube.com/watch?v=oKxMENr983E)
+
 ---
 
 ## 📸 Screenshots
 
 | **Data Entry** | **Timetable View** | **Validation Report** |
 |:---:|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/f14f8097-b70b-46a7-a798-759aa9a3ff67" width="300" /> | <img src="https://github.com/user-attachments/assets/56257418-9756-4738-871c-5a507f3e9d95" width="300" /> | <img src="https://github.com/user-attachments/assets/c9eebb80-da88-432f-9b6a-0ad29182aa75" width="300" /> |
+| <img src="https://github.com/user-attachments/assets/f14f8097-b70b-46a7-a798-759aa9a3ff67" width="250" /> | <img src="https://github.com/user-attachments/assets/56257418-9756-4738-871c-5a507f3e9d95" width="250" /> | <img src="https://github.com/user-attachments/assets/c9eebb80-da88-432f-9b6a-0ad29182aa75" width="250" /> |
 
 ---
 
 ## ✨ Key Features
 
 ### 🧠 Intelligent Scheduling
-* Conflict-free timetable generation
-* Instructor availability & room constraints
-* Lab vs lecture room validation
-* Heuristic / backtracking-based algorithm
+* **Conflict-Free:** Ensures no double bookings.
+* **Constraints:** Handles Instructor availability & room capacities.
+* **Smart Allocation:** Validates Lab vs Lecture room types.
+* **Algorithm:** Uses Heuristic / backtracking-based logic.
 
-### 📊 Visual Timetable & Reports
-* Weekly schedule grid view
-* Automatic conflict & validation reports
-* One-click schedule regeneration
+### 📊 Visual & Reporting
+* **Interactive Timetable:** Weekly grid view of the schedule.
+* **Validation Reports:** Automatic report generation for schedule quality.
+* **One-Click:** Regenerate schedules instantly.
 
 ### 💾 Data Persistence
-* File-based storage using **JSON**
-    * `courses.json`
-    * `instructors.json`
-    * `rooms.json`
-* No external database required
+* **JSON Storage:** Uses `courses.json`, `instructors.json`, etc. No external DB required.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Tech Stack
 
-* **Language:** Python (3.9+)
-* **GUI Framework:** Tkinter
-* **Design Pattern:** MVC (Model–View–Controller)
-* **Data Storage:** JSON / CSV File I/O
-* **UI Design:** Canva (AI-assisted)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,vscode,git" />
+  <br>
+  <b>GUI Framework:</b> Tkinter (Native Python) <br>
+  <b>Design Pattern:</b> MVC (Model–View–Controller) <br>
+  <b>Data Storage:</b> JSON File I/O
+</div>
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run (BeePlan)
 
-1.  **Clone the Repository**
+1.  **Clone the Repository** (If not already done)
     ```bash
     git clone [https://github.com/cozalss/SENG383-project.git](https://github.com/cozalss/SENG383-project.git)
     ```
 
 2.  **Open the Project**
     * Navigate to the **BeePlan** folder inside the cloned repository.
-    * Open this folder in **VS Code**, **PyCharm**, or any Python-compatible IDE.
+    * Open this folder in **VS Code** or **PyCharm**.
 
-3.  **Install Requirements**
-    * BeePlan uses **Tkinter**, which usually comes pre-installed with Python.
-    * No additional pip installation is required.
-
-4.  **Run the Application**
+3.  **Run the Application**
     ```bash
     python main.py
     ```
-
-5.  **First Use**
-    * The application loads input data from JSON files.
-    * Generated timetables and validation reports are displayed in the GUI.
-
-## 📂 Project Structure
-
-```text
-src/
-├── main.py                    # Application entry point
-├── persistence_manager.py     # JSON load/save logic
-├── schedule_model.py          # Manages data & generated schedules
-├── scheduler_algorithm.py     # Scheduling algorithm
-├── scheduler_controller.py    # Connects GUI actions to model logic
-└── timetable_view.py          # Weekly timetable GUI view
----
-```
