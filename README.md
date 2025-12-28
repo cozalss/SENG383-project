@@ -9,6 +9,15 @@
 
 Unlike traditional Swing apps, KidTask features a **modern, material-design inspired UI** with animated gradients, particle effects (confetti), and smooth transitions. It allows parents/teachers to assign tasks and children to earn points, level up, and unlock wishes.
 
+---
+
+## 👤 Author
+
+Developed by **Cem Özal**
+
+- Software Engineering Student  
+- Java Swing • UI/UX • Gamification  
+
 
 ---
 ## 🎥 Demo
@@ -74,19 +83,24 @@ Unlike traditional Swing apps, KidTask features a **modern, material-design insp
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/cozalss/SENG383-project/tree/main/SENG383-KidTask_Cem%C3%96zal_Final]
+    git clone [https://github.com/cozalss/SENG383-project.git](https://github.com/cozalss/SENG383-project.git)
     ```
 
-2.  **Open in IDE**
-    * Open the project in **IntelliJ IDEA** (Recommended) or Eclipse.
+2.  **Navigate to Project Folder**
+    * After cloning, enter the project directory:
+    ```bash
+    cd SENG383-KidTask_CemÖzal_Final
+    ```
 
-3.  **Run the Application**
+3.  **Open in IDE**
+    * Open this folder in **IntelliJ IDEA** (Recommended) or Eclipse.
+
+4.  **Run the Application**
     * Locate `src/KidTaskMain.java`.
     * Right-click and select **Run 'KidTaskMain'**.
 
-4.  **First Use**
+5.  **First Use**
     * The app will automatically create `tasks.csv` and `wishes.csv` files in the root directory upon saving data.
-
 ---
 
 ## 📂 Project Structure
@@ -121,6 +135,13 @@ src/
 The system handles real-world constraints such as **instructor availability, room capacity, room type (Lab/Lecture), and scheduling rules**. It uses a constraint-based scheduling algorithm and presents results in a **visual weekly timetable**, along with clear validation reports.
 
 ---
+
+## 👤 Author
+
+Developed by **Hasabu Can Eltayeb**
+
+- Software Engineering Student  
+- Python • GUI Development • Scheduling Algorithms  
 
 
 ---
@@ -174,15 +195,16 @@ The system handles real-world constraints such as **instructor availability, roo
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/cozalss/SENG383-project.git
+    git clone [https://github.com/cozalss/SENG383-project.git](https://github.com/cozalss/SENG383-project.git)
     ```
 
 2.  **Open the Project**
-    * Open the BeePlan folder in **VS Code**, **PyCharm**, or any Python-compatible IDE.
+    * Navigate to the **BeePlan** folder inside the cloned repository.
+    * Open this folder in **VS Code**, **PyCharm**, or any Python-compatible IDE.
 
 3.  **Install Requirements**
-    * BeePlan uses **Tkinter**, which comes pre-installed with Python.
-    * No additional libraries are required.
+    * BeePlan uses **Tkinter**, which usually comes pre-installed with Python.
+    * No additional pip installation is required.
 
 4.  **Run the Application**
     ```bash
